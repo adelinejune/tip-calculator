@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 2021-10-07 at 11-41-32 Split Bill](https://user-images.githubusercontent.com/75600902/136316967-f22fabc5-7318-45c9-bf8a-859a7bb77a8d.png)
+![Screenshot 2021-10-07 at 11-41-32 Split Bill](https://user-images.githubusercontent.com/75600902/136322263-4874dafe-2669-448f-8d07-855c61a2f6ab.png)
 
 ### Links
 
