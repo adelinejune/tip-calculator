@@ -98,7 +98,7 @@ function calculateTotal(tip){
     let total;
     tip = tip;
     let eachTip = (bill * tip / 100)
-    total = (bill / people) + eachTip;
+    total = (bill / people) + (eachTip / people);
 
     total = Number(total);
     total = total.toFixed(2)
