@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/adelinejune/tip-calculator](https://github.com/adelinejune/tip-calculator)
-- Live Site URL: [https://adelinejune.github.io/tip-calculator/](https://adelinejune.github.io/coming-soon-page/)
+- Live Site URL: [https://adelinejune.github.io/tip-calculator/](https://adelinejune.github.io/tip-calculator/)
 
 ## My process
 
