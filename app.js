@@ -26,6 +26,7 @@ billInput.addEventListener("keyup", function(e){
     }else {
         bill = input;
     }
+    calculateTip();
     calculateTotal();
 })
 
@@ -49,10 +50,12 @@ tipBtn.forEach(function(btn){
             btn.addEventListener("keyup", function(e){
                 tip = e.target.value;
                 calculateTip(tip);
+                calculateTotal(tip);
             })
         }else {
             tip = btn.value;
             calculateTip(tip);
+            calculateTotal(tip);
         }
     })
 })
@@ -65,6 +68,7 @@ pplInput.addEventListener("keyup", function(e){
     }else {
         people = input;
     }
+    calculateTip();
     calculateTotal();
 })
 
@@ -86,18 +90,16 @@ function calculateTip(){
     if(!isNaN(total) && isFinite(total)){
         totalTip.innerHTML = `$${total}`
     }
-    calculateTotal(total)
+    calculateTotal(tip)
 }
 
 // Calculate total per person
 function calculateTotal(tip){
     let total;
     tip = tip;
-    if(tip === undefined){
-        total = (bill / people) ;
-    }else {
-        total = (bill / people) + (tip / people);
-    }
+    let eachTip = (bill * tip / 100)
+    total = (bill / people) + eachTip;
+
     total = Number(total);
     total = total.toFixed(2)
     if(!isNaN(total) && isFinite(total)){
